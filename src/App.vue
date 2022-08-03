@@ -1,7 +1,7 @@
 <template>
  <div>
     <h4>XX 원룸</h4>
-    <p>{{price1}} 만원</p>
+    <p :style="스타일">{{price1}} 만원</p>
   </div>
   <div>
     <h4>XX 원룸</h4>
@@ -15,7 +15,8 @@ export default {
   name : 'App',
   data(){
     return {
-      price1 : 60
+      price1 : 60,
+      스타일 : 'color:orange'
     }
   }
 }
