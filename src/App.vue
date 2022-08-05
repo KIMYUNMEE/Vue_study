@@ -1,4 +1,7 @@
 <template>
+<div class="menu">
+  <a v-for="작명 in 3" :key="작명">Home</a>
+</div>
  <div>
     <h4>XX 원룸</h4>
     <p :style="스타일">{{price1}} 만원</p>
