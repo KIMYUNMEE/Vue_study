@@ -1,5 +1,7 @@
 # vuestudy
 
+Vue.js 공부하기
+
 ## Project setup
 ```
 npm install
